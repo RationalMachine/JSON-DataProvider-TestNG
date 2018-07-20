@@ -14,7 +14,7 @@ public class SampleTestClass {
 
   @Test(dataProvider = "getData")
   public void testMethod(TestData data) {
-    //System.out.println(data);
+    ///System.out.println(data);
     System.out.println(data.getUsername()+" "+data.getPassword());
   }
 
